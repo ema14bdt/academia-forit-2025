@@ -1,0 +1,58 @@
+.task-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .task-item.completed .task-title {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .task-content {
+    flex: 1;
+  }
+  
+  .task-title {
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+  
+  .task-description {
+    margin-bottom: 12px;
+    color: #555;
+  }
+  
+  .task-date {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .task-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-end;
+  }
+  
+  .task-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 8px;
+  }
+  
+  .btn.edit {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .btn.delete {
+    background-color: #f44336;
+    color: white;
+  }
