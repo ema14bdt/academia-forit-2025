@@ -80,4 +80,3 @@ Con estos pasos, deberías tener la aplicación completamente funcional en tu en
 ![Pantalla de inicio](./screen5.png)
 ![Pantalla de inicio](./screen6.png)
 ![Pantalla de inicio](./screen7.png)
-![Pantalla de inicio](./screen8.png)
